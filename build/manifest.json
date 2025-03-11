@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3,
+	"name": "SYPass Parola Yönetici",
+	"description": "SYPass ile parolalarınızı güvenle yönetin!",
+	"version": "0.4.1",
+
+	"action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup/index.html"
+	},
+
+	"icons": {
+		"16": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+
+	"permissions": [
+		"storage", "activeTab", "tabs", "scripting"
+	],
+	
+	"host_permissions": [
+		"<all_urls>"
+	]
+}
